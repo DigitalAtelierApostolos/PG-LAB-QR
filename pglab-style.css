@@ -7,7 +7,7 @@
 
 body {
     background-color: #2b1635; /* Σκούρο μωβ φόντο που ταιριάζει με το λογότυπο */
-    background-image: url('pglab-cover.jpg'); /* Βάλε εδώ το όνομα της εικόνας φόντου σου αν έχεις */
+    background-image: url('PGLAB.png'); /* Βάλε εδώ το όνομα της εικόνας φόντου σου αν έχεις */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
