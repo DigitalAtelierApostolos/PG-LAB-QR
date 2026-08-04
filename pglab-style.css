@@ -148,3 +148,21 @@ body::before {
 .btn:hover i {
     color: #ffffff;
 }
+
+.footer-connect {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.footer-connect .connect-text {
+    color: #f0f0f0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-connect .connect-text i {
+    color: #f39c12;
+}
