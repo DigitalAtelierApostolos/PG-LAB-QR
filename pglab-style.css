@@ -6,11 +6,7 @@
 }
 
 body {
-    background-color: #2b1635; /* Σκούρο μωβ φόντο που ταιριάζει με το λογότυπο */
-    background-image: url('PGLAB.png'); /* Βάλε εδώ το όνομα της εικόνας φόντου σου αν έχεις */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #2b1635 0%, #150a1b 100%);
     color: #ffffff;
     font-family: 'Plus Jakarta Sans', sans-serif;
     display: flex;
@@ -19,18 +15,6 @@ body {
     min-height: 100vh;
     padding: 20px;
     position: relative;
-}
-
-/* Σκοτεινό/Μωβ overlay για να δένει η εικόνα */
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(43, 22, 53, 0.75);
-    z-index: 1;
 }
 
 .container {
